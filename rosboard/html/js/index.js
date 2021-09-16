@@ -14,6 +14,9 @@ importJsOnce("js/viewers/PolygonViewer.js");
 importJsOnce("js/viewers/DiagnosticViewer.js");
 importJsOnce("js/viewers/TimeSeriesPlotViewer.js");
 importJsOnce("js/viewers/PointCloud2Viewer.js");
+// Custom Message
+importJsOnce("js/viewers/RaceStateViewer.js");
+importJsOnce("js/viewers/TritonAIRacerControlViewer.js");
 
 // GenericViewer must be last
 importJsOnce("js/viewers/GenericViewer.js");

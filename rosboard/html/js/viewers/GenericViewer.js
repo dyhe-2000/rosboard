@@ -31,7 +31,7 @@ class GenericViewer extends Viewer {
 
       for(let field in data) {
           if(field[0] === "_") continue;
-          // if(field === "header") continue;
+          if(field === "header") continue;
           // if(field === "name") continue;
 
           if(!this.fieldNodes[field]) {

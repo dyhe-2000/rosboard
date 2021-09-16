@@ -5,6 +5,7 @@ find_package(catkin REQUIRED COMPONENTS
   rospy
   std_msgs
   sensor_msgs
+  tritonairacer_interfaces
 )
 
 catkin_python_setup()
